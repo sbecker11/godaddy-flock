@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0"/>
+  <meta http-equiv= "X-UA-Compatible"
+        content="ie=edge"/>
+  <title>flock-of-cards version-0.8</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="modules/timeline.css">
+</head>
+
+<body>
+  <script type="text/javascript" src="static_content/jobs/jobs.mjs"></script>
+  <!-- <script type="text/javascript" src="static_content/media/image_paths.mjs"></script> -->
+  <script type="module" src="./main.mjs" ></script>
+
+  <div id="main-container">
+    <div id="canvas-container" class="scrollable-container">
+      <div id="canvas">
+        <div id="top-gradient"></div>
+        <div id="bottom-gradient"></div>
+        <div id="timeline-container" class="timeline-container-left"></div>
+      </div>
+      <div id="bulls-eye">+</div>
+      <div id="focal-point">⦻</div>
+    </div>
+    <div id="right-column">
+      <div id="right-header-div">
+
+        <!-- your resume head goes here -->
+        <table cellspacing="0" style="color:#fff;font-family:-apple-system,sans-serif;font-size:13px;width:100%;line-height:100%">
+          <tbody>
+            <tr>
+              <td style="vertical-align:top">
+                <p><span style="font-size:30px">Shawn Becker</span></p>
+                <p><strong><span style="font-size:11pt">Data Engineer / Software Developer</span></strong></p>
+                <p>sbecker@alum.mit.edu &bull; 857-891-0896<br>LinkedIn.com/in/shawnbecker &bull; Lehi - Utah, USA</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- your resume head goes here -->
+        <div class="buttons">
+          <button id="clear-all-line-items" class="menu-button">Clear All</button>
+          <button id="select-all-bizcards" class="menu-button">Select All</button>
+          <button id="select-next-bizcard" class="menu-button">Select Next</button>
+          <button id="select-first-bizcard" class="menu-button">Select First</button>
+        </div>
+
+      </div>
+      <div id="right-content-div" class="scrollable-container">
+        <!-- <div id="skills" style="color:black;height:50px;width:100%;"></div> -->
+      </div>
+      <div id="right-footer-div">
+        <p class="footnote" style="text-align:bottom;">
+          create a flock-of-postcards for yourself at
+          <a target="_blank" href="https://www.beckerstudio.com/">beckerstudio.com</a>"
+        </p>
+
+        <div id="debugScrollingElement"></div>
+        <div id="debugFocalPointElement"></div>
+        <div id="debugTheSelectedCardDivIdElement"></div>
+      </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 # Updating the hosted spexture.com site at godday.com
 
 ## copy the relevant content from the local flock-of-postcards project
-cd  /Users/sbecker11/workspace-parallax/flock-of-postcards-godaddy/public_html
+cd  /Users/sbecker11/workspace-parallax/goddaddy-flock/public_html
 ln -s /Users/sbecker11/workspace-parallax/flock-of-postcards .
 cp flock-of-postcards/index.html .
 cp flock-of-postcards/README.md .
