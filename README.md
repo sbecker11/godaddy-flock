@@ -8,10 +8,15 @@ cp flock-of-postcards/README.md .
 cp -R flock-of-postcards/modules .
 cp -R flock-of-postcards/static_content  .
 cp flock-of-postcards/styles.css .
-cp flock-of-postcards/main.mjs .
+cp flock-of-postcards/main.js .
 
 ## login to godaddy.com
-open http://goddaddy.com  
+open http://goddaddy.com/
+
 use google account scbboston@gmail.com  
-go to  My Products / Web Hosting Manage All / cPanel Admin / File Manager / public_html  
+in footer go to  Account / My Products
+go to Web Hosting Manage All 
+to the right of spexture.cok selet cPanel Admin 
+on the left click File Manager
+double-click on public_html  
 use the file uploader  

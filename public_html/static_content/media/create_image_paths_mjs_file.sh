@@ -12,9 +12,9 @@ for i in $(ls ${SRC_IMG_DIR}); do
   echo "@@static_content/media/${SRC_IMG_DIR}/$i@@," >> tmp_file; 
 done; 
 echo "];" >> tmp_file;
-sed 's/@@/"/g' tmp_file > image_paths.mjs
+sed 's/@@/"/g' tmp_file > image_paths.js
 rm tmp_file
 
 echo "SUCCESS"
-echo "$(cat image_paths.mjs | grep ${SRC_IMG_DIR} | wc -l) items created in image_paths.mjs"
+echo "$(cat image_paths.js | grep ${SRC_IMG_DIR} | wc -l) items created in image_paths.js"
 
