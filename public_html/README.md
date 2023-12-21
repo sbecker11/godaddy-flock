@@ -31,8 +31,8 @@ The static 'flock-of-postcards' website has been upgraded to be a webapp that us
 <img src="https://shawn.beckerstudio.com/wp-content/uploads/2023/07/vscode-go-live-icon.png"/>  
 - Note that the "Go Live" button now shows either "Port : 5500" or "Port : 5501"
 - Click the button below that matches the "Go Live" button's new Port value:  
-    <a href="http://localhost:5500/public_html/index.html"><img src="./static_content/graphics/GoLivePort5500.png"/></a>  
-    <a href="http://localhost:5501/pubic_html/index.html"><img src="./static_content/graphics/GoLivePort5501.png"/></a>  
+    <a href="http://localhost:5500/index.html"><img src="./static_content/graphics/GoLivePort5500.png"/></a>  
+    <a href="http://localhost:5501/index.html"><img src="./static_content/graphics/GoLivePort5501.png"/></a>  
    
 - Have fun with your local copy of the 'flock-of-postcards' webapp.  
 
