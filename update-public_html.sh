@@ -30,7 +30,7 @@ cp ${FLOCK_DIR}/modules/timeline.css ${GODADDY_PUBLIC_HTML}/modules/timeline.css
 
 cp -R ${FLOCK_DIR}/static_content ${GODADDY_PUBLIC_HTML}/static_content
 cp ${FLOCK_DIR}/index.html ${GODADDY_PUBLIC_HTML}/index.html
-cp ${FLOCK_DIR}/README.md ${GODADDY_PUBLIC_HTML}/README.mdt
+cp ${FLOCK_DIR}/README.md ${GODADDY_PUBLIC_HTML}/README.md
 cp ${FLOCK_DIR}/favicon.ico ${GODADDY_PUBLIC_HTML}/favicon.ico
 cp ${FLOCK_DIR}/404.html ${GODADDY_PUBLIC_HTML}/404.html
 
